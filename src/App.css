@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+html{
+    width: 100%;
+    background-color: bisque
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+    font-size: 50px;
+    color: rgb(94, 52, 2);
+    text-align: center; 
+    border: solid;
+    border-color: rgb(235, 145, 37);
+    border-radius: 20px;
+    background-color: rgb(224, 187, 142);
+    font-family: 'Niconne', cursive;
 }
+.card{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    justify-items: center;
+    width: 54%;
+    border-radius: 20px;
+    background-color: bisque;
+}
+.card-body{
+    background-color: rgb(155, 119, 66);
+    /* border-radius: 40px; */
+}
+.alltodo{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    justify-content:space-around;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+   
+}
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid rgb(94, 52, 2);
+    border-radius: 5px;
+    color:  rgb(94, 52, 2);
+    background-color: rgb(224, 187, 142);
+ 
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .btn-primary {
+    margin: 10px;
+    font-weight: bold;
   }
-  to {
-    transform: rotate(360deg);
+
+  .btn-danger {
+    margin: 10px;
+    font-weight: bold;
   }
+  
+  .card-text{
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.6;
+}
+    button{
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid rgb(94, 52, 2);
+    border-radius: 5px;
+    color:  rgb(94, 52, 2);
+    background-color: rgb(224, 187, 142);
+ 
+  }
+  .addsection{
+    justify-items: center;
+    border-radius: 20px;
+    /* border: solid;
+    border-color: rgb(235, 145, 37); */
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+.input{
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: solid;
+    border-color: rgb(235, 145, 37);
 }
